@@ -5,3 +5,13 @@ title: "" # the name of your site, e.g. ACME Corp.
 collections:
   snakes:
     output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - cache/
